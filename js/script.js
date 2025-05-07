@@ -11,7 +11,7 @@
  */
 // eslint-disable-next-line no-unused-vars
 
-function generateNumber() {
+function calculatePrice() {
   // input
   const optionPositive = document.getElementById("option-positive").checked
 

@@ -28,13 +28,13 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/positive_negative.jpg" alt="positive and negative image" />
+        <img src="./images/candy shop.jpg" alt="candy shop image" />
       </div>
       <div class="page-content">Select the size or pieces for your candies. YAY! </div>
       <form>
         <div class="page-options">
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-positive">
-            <input type="radio" id="option-positive" class="mdl-radio__button" name="kind-of-number" value="1" checked>
+            <input type="radio" id="option-sing-size bag" class="mdl-radio__button" name="kind-of-number" value="1" checked>
             <span class="mdl-radio__label">Sing-size bag (10 pieces of candy) </span>
           </label>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
@@ -45,7 +45,7 @@
         <br />
         <!-- Raised button with ripple -->
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="generateNumber()" type="button">
+          onclick="calculatePrice()" type="button">
           Generate
         </button>
       </form>
