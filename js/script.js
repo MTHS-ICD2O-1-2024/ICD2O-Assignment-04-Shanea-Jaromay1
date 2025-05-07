@@ -11,9 +11,10 @@
  */
 // eslint-disable-next-line no-unused-vars
 
-function generateNumber() {
+function calculatePrice() {
   // input
-  const optionPositive = document.getElementById("option-positive").checked
+  const optionSingle = document.getElementById("option-single-bag").checked
+  const userCandy = document.getElementById()
 
   // generate a new random number every time
   const randomNumber = Math.floor(Math.random() * 6) + 1
