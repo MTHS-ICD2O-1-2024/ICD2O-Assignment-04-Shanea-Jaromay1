@@ -13,26 +13,20 @@
 */
 // eslint-disable-next-line no-unused-vars
 
-function calculatePrice() {
+function calculatePrice () {
   const TAX_RATE = 0.13
   let subTotal = 0
   let bagType = ""
 
   // Input
   const optionSingle = document.getElementById('option-single-bag').checked
-  const optionFamily = document.getElementById('option-family-bag').checked
   const userCandy = document.getElementById('user-candy').value
 
   // Process
-  if (optionSingle) {
-    subTotal = 5
-    bagType = "Single-size bag"
-  } else if (optionFamily) {
-    subTotal = 15
-    bagType = "Family-size bag"
+  if (optionSingle === true) {
+    subTotal = subTotal + 5
   } else {
-    document.getElementById("answer").innerHTML = "Please select a bag size."
-    return
+    subTotal = subTotal + 15
   }
 
   // Tax calculation
