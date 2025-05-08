@@ -36,14 +36,9 @@ function calculatePrice () {
   const totalPrice = subTotal + tax
 
   // Output
-  document.getElementById('answer').innerHTML = 
-    'You selected ' + userCandy + ' in a ' + bagType + '.' <br>
-  'Sub Total: $' +
-  subTotal.toFixed(2) +
-  '<br>' +
-  'Tax: $' +
-  tax.toFixed(2) +
-  '<br>' +
-  'Total Price: $' +
-  totalPrice.toFixed(2)
+document.getElementById('answer').innerHTML =
+  'You selected ' + userCandy + ' in a ' + bagType + '.<br>' +
+  'Sub Total: $' + subTotal.toFixed(2) + '<br>' +
+  'Tax: $' + tax.toFixed(2) + '<br>' +
+  'Total Price: $' + totalPrice.toFixed(2)
 }
