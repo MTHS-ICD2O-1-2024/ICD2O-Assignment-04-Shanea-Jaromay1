@@ -25,8 +25,10 @@ function calculatePrice () {
   // Process
   if (optionSingle === true) {
     subTotal = subTotal + 5
+    bagType = "Single-size bag"
   } else {
     subTotal = subTotal + 15
+    bagType = "Family-size bag"
   }
 
   // Tax calculation
