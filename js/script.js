@@ -36,7 +36,7 @@ function calculatePrice () {
   const totalPrice = subTotal + tax
 
   // Output
-  document.getElementById("answer").innerHTML = 
+  document.getElementById('answer').innerHTML = 
     'You selected ' + userCandy + ' in a ' + bagType + '.' <br>
   'Sub Total: $' +
   subTotal.toFixed(2) +
